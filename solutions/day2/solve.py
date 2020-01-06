@@ -27,7 +27,6 @@ def solve_2(arr):
             res = solve_1(arr2, n, v)
             if res == 19690720:
                 return 100*n+v
-            
 
 if __name__=="__main__":
     f = readinput('a_1.txt')

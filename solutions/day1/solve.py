@@ -1,8 +1,7 @@
-def readinput(path):
-    f = open(path, 'r')
-    ret = f.read()
-    f.close()
-    return ret
+import sys
+sys.path.append('../')
+
+from utils import *
 
 def solve_1(arr):
     res = 0

@@ -20,12 +20,12 @@ def solve_2(arr):
     return res
 
 if __name__=="__main__":
-    f = readinput('../../inputs/day1/a_1.txt')
+    f = readinput('a_1.txt')
     f = [int(x) for x in f.split()]
     sol1 = solve_1(f)
     print("Result of A:", sol1)
 
-    f = readinput('../../inputs/day1/b_1.txt')
+    f = readinput('b_1.txt')
     f = [int(x) for x in f.split()]
     sol2 = solve_2(f)
     print("Result of B:", sol2)
